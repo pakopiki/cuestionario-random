@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirección aleatoria</title>
+</head>
+<body>
+  <p>Redirigiendo al cuestionario...</p>
+  <script>
+    const links = [
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=EmcuqWHazkybtXpGdi9x108hpv4vUEFMofWRp-B00khUOTNZUEw3MFNBNk05TEtPVlYwWE1ENU8yUy4u",
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=EmcuqWHazkybtXpGdi9x108hpv4vUEFMofWRp-B00khURFVTSzhJRUdHSlRTSVZEN01DQjcwSjNMVC4u",
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=EmcuqWHazkybtXpGdi9x108hpv4vUEFMofWRp-B00khUMTVZNEhFOFdYS1ZKWFJOTVhKNFVIMU9CMy4u",
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=EmcuqWHazkybtXpGdi9x108hpv4vUEFMofWRp-B00khUNUVIMFFMTjhSU0VVM1dIQVJHN0M0QVYwNi4u",
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=EmcuqWHazkybtXpGdi9x108hpv4vUEFMofWRp-B00khUN0c5V0E1WkFRWjE5Ulo0M1dGRkIyMjlKNy4u"
+    ];
+    const randomLink = links[Math.floor(Math.random() * links.length)];
+    window.location.href = randomLink;
+  </script>
+</body>
+</html>
